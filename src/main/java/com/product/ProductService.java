@@ -15,7 +15,7 @@ public class ProductService {
     }
 
     public List<Product> getAllProducts() {
-        return products;
+        return db.getAll();
     }
 
     public Product getProduct(String name) {
