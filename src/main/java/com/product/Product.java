@@ -10,7 +10,8 @@ public class Product {
     public Product() {
     }
 
-    public Product(String name, String type, String place, int warranty) {
+    public Product(int id, String name, String type, String place, int warranty) {
+        this.id = id;
         this.name = name;
         this.type = type;
         this.place = place;
